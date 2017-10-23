@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/5/2016 12:20:27
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/osc00; Project name: osc00
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/osc00/osc00.ldf"
+prj_run Synthesis -impl osc00
+prj_run Synthesis -impl osc00
+prj_run Export -impl osc00 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 9/5/2016 12:21:53

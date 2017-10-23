@@ -1,0 +1,4 @@
+@W: MT462 :"c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl":18:4:18:7|Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl":18:4:18:7|Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl":18:4:18:7|Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl":18:4:18:7|Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency. 

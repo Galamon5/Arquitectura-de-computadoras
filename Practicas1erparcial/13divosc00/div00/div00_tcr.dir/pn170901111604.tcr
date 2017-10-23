@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/1/2017 11:12:18
+#Project Location: C:/lscc/diamond/3.9_x64/bin/nt64/arqui/divosc00/div00; Project name: div00
+prj_project open "C:/lscc/diamond/3.9_x64/bin/nt64/arqui/divosc00/div00/div00.ldf"
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+#Stop recording: 9/1/2017 11:16:04

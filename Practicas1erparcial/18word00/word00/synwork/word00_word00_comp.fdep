@@ -1,0 +1,64 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\word00\\synwork\\word00_word00_comp.srs|-top|topword00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_vhdl.exe":1449734446
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\location.map":1449914594
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std1164.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\numeric.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\arith.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377014408
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\contring00.vhdl":1473569180
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\cpld\\lattice.vhd":1449730182
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1449730182
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\div00.vhdl":1473569180
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\mux00.vhdl":1473716176
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\osc00.vhdl":1473569180
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\packagediv00.vhdl":1473569180
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\packageword00.vhdl":1473569180
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\topdiv00.vhdl":1473569180
+#CUR:"C:\\Users\\saiko\\Documents\\ESCOM\\5 semestre\\Arqui de Computadoras\\Diamond\\word00\\topword00.vhdl":1473574986
+0			"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl" vhdl
+2			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\div00.vhdl" vhdl
+3			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl" vhdl
+4			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\osc00.vhdl" vhdl
+5			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packagediv00.vhdl" vhdl
+6			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packageword00.vhdl" vhdl
+7			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl" vhdl
+8			"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topword00.vhdl" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 5 0 2 4
+8 6 0 3 1 7
+#Dependency Lists(Users Of)
+0 1 2 3 4 5 6 7 8
+1 8
+2 7
+3 8
+4 7
+5 7
+6 8
+7 8
+8 -1
+#Design Unit to File Association
+module work topword00 8
+arch work topword00 topword0 8
+module work topdiv00 7
+arch work topdiv00 topdiv0 7
+module work osc00 4
+arch work osc00 osc0 4
+module work mux00 3
+arch work mux00 mux0 3
+module work div00 2
+arch work div00 div0 2
+module work contring00 1
+arch work contring00 contring0 1

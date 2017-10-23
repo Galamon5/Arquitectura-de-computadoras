@@ -1,0 +1,28 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|arith_add04|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-fileorder|G:\\todas las carpetas\\Escom\\Semestre5\\Arquitectura de Computadoras\\Practicas\\sumador_arith4\\arith_add04\\syntmp\\hdlorder.tcl"
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"E:\\diamond-arquitectura\\diamond\\3.9_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1480973228
+#CUR:"G:\\todas las carpetas\\Escom\\Semestre5\\Arquitectura de Computadoras\\Practicas\\sumador_arith4\\arith_add04.vhd":1505284436
+0 "E:\diamond-arquitectura\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+
+# Dependency Lists (Users Of)
+0 1 
+1 -1
+
+# Design Unit to File Association
+arch work arith_add04 arith_add4 1
+module work arith_add04 1

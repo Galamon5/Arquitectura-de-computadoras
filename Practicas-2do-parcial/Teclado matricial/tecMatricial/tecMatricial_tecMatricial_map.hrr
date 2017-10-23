@@ -1,0 +1,30 @@
+---------------------------------------------------
+Report for cell teclado
+   Instance path: teclado
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.00        100.0
+                                 IOLGC	       7.00        100.0
+                                  LUT4	      61.00        100.0
+                                 IOREG	          7        100.0
+                                 IOBUF	         20        100.0
+                                PFUREG	         25        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        76.2
+---------------------------------------------------
+Report for cell div00
+   Instance path: teclado/UD01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.00        76.2
+                                  LUT4	      43.00        70.5
+                                PFUREG	         22        88.0
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: teclado/UD00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

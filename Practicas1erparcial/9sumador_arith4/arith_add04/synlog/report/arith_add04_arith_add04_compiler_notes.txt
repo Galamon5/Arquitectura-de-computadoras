@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"E:\diamond-arquitectura\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04.vhd":8:7:8:17|Top entity is set to arith_add04.
+@N: CD630 :"G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04.vhd":8:7:8:17|Synthesizing work.arith_add04.arith_add4.
+@N|Running in 64-bit mode
+

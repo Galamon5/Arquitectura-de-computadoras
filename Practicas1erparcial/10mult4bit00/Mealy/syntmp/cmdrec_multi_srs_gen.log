@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.topsec0101me00  -multisrs  C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synwork\Mealy_Mealy_comp.srs  -osyn  C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synwork\Mealy_Mealy_mult.srs  -log  C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synlog\Mealy_Mealy_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synwork\Mealy_Mealy_comp.srs|io:i|time:1488903581|size:9046|exec:0
+file:C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synwork\Mealy_Mealy_mult.srs|io:o|time:1488903582|size:3845|exec:0
+file:C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\Mealy\synlog\Mealy_Mealy_multi_srs_gen.srr|io:o|time:1488903582|size:549|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1467788116|size:3115520|exec:1
+file:C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1467788318|size:4189696|exec:1

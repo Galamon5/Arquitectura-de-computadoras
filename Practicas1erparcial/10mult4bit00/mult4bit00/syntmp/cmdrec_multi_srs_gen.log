@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.7\synpbase\bin\syn_nfilter.exe  -link  -top  topmult4bit00  -incremental_debug  -multisrs  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_comp.srs  -osyn  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_mult.srs  -log  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synlog\mult4bit00_mult4bit00_multi_srs_gen.srr 
+rc:0 success:1 runtime:3
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_comp.srs|i|1473031192|5677
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_mult.srs|o|1473031197|4033
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synlog\mult4bit00_mult4bit00_multi_srs_gen.srr|o|1473031197|548
+C:\lscc\diamond\3.7\synpbase\bin64\syn_nfilter.exe|i|1449734476|4182528
+C:\lscc\diamond\3.7\synpbase\bin\syn_nfilter.exe|i|1449734274|3110400

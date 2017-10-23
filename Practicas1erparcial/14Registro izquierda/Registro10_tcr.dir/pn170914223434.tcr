@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/14/2017 22:30:19
+#Project Location: G:/todas las carpetas/Escom/Semestre5/Arquitectura de Computadoras/Practicas/Registro izquierda; Project name: Registro10
+prj_project open "G:/todas las carpetas/Escom/Semestre5/Arquitectura de Computadoras/Practicas/Registro izquierda/Registro10.ldf"
+prj_run Synthesis -impl Registro10
+prj_run Export -impl Registro10 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 9/14/2017 22:34:34

@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\CarmatchMX\Desktop\Practicas1erparcial\15Registro derecha\registro01.vhd":42:13:42:16|Constant width 2 does not match context width 3
+

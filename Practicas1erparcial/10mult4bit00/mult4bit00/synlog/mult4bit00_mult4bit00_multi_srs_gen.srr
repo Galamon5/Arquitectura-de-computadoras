@@ -1,0 +1,12 @@
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 32-bit mode
+File C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 04 18:19:57 2016
+
+###########################################################]

@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/6/2016 08:58:00
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project new -name "div00" -impl "div00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/osc00.vhdl"
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2016 09:34:12

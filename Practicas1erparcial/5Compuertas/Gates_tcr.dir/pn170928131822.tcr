@@ -1,0 +1,14 @@
+#Start recording tcl command: 9/28/2017 13:03:29
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas1erparcial/5Compuertas; Project name: Gates
+C:/Users/CarmatchMX/Desktop/Practicas1erparcial/15Registro derecha
+registro01
+#Start recording tcl command: 9/28/2017 13:18:21
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas1erparcial/15Registro derecha; Project name: registro01
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/5Compuertas/Gates.ldf"
+pgr_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/5Compuertas/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/5Compuertas/Gates/Gates.xcf"
+prj_project close
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/15Registro derecha/registro01.ldf"
+pgr_project close
+#Stop recording: 9/28/2017 13:18:22

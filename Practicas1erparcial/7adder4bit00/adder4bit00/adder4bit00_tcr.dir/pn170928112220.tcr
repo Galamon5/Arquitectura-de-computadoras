@@ -1,0 +1,23 @@
+#Start recording tcl command: 9/28/2017 11:05:32
+#Project Location: C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00.ldf"
+pgr_project close
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_project close
+pgr_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+pgr_program run
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/7adder4bit00/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/28/2017 11:22:20

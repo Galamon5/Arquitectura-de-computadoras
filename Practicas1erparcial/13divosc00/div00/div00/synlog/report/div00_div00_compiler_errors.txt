@@ -1,0 +1,6 @@
+@E: CD395 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\13divosc00\div00\div00.vhdl":40:12:40:34|Constant width 21 does not match context width 23
+@E: CD395 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\13divosc00\div00\div00.vhdl":47:12:47:34|Constant width 21 does not match context width 23
+@E: CD395 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\13divosc00\div00\div00.vhdl":54:12:54:34|Constant width 21 does not match context width 23
+@E: CD395 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\13divosc00\div00\div00.vhdl":61:12:61:34|Constant width 21 does not match context width 23
+@E: CD395 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\13divosc00\div00\div00.vhdl":68:12:68:34|Constant width 21 does not match context width 23
+

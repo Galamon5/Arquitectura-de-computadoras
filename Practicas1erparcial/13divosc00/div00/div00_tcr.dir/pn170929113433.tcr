@@ -1,0 +1,17 @@
+#Start recording tcl command: 9/29/2017 11:24:30
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas1erparcial/13divosc00/div00; Project name: div00
+C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro
+registro
+#Start recording tcl command: 9/29/2017 11:34:32
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro; Project name: registro
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/13divosc00/div00/div00.ldf"
+prj_run Synthesis -impl div00
+prj_run Map -impl div00
+prj_run Export -impl div00 -task Jedecgen
+pgr_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/13divosc00/div00/div00/div00.xcf"
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/13divosc00/div00/div00/div00.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro/registro.ldf"
+#Stop recording: 9/29/2017 11:34:33

@@ -1,0 +1,270 @@
+
+        Lattice Mapping Report File for Design Module 'topsec0101me00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     Mealy_Mealy.ngd -o Mealy_Mealy_map.ncd -pr Mealy_Mealy.prf -mp
+     Mealy_Mealy.mrp -lpf C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos
+     /pendientes/mult4bit00/Mealy/Mealy_Mealy_synplify.lpf -lpf C:/Users/RODRIGO
+     /Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/Mealy.lpf -c 0
+     -gui -msgset C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendien
+     tes/mult4bit00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.8.0.115.3
+Mapped on:  03/07/17  10:19:56
+
+Design Summary
+--------------
+
+   Number of registers:     36 out of  7209 (0%)
+      PFU registers:           34 out of  6864 (0%)
+      PIO registers:            2 out of   345 (1%)
+   Number of SLICEs:        32 out of  3432 (1%)
+      SLICEs as Logic/ROM:     32 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         62 out of  6864 (1%)
+      Number used as logic LUTs:         40
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 17 + 4(JTAG) out of 115 (18%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net reset0_c: 1 loads, 1 rising, 0 falling (Driver: PIO reset0 )
+
+                                    Page 1
+
+
+
+
+Design:  topsec0101me00                                Date:  03/07/17  10:19:56
+
+Design Summary (cont)
+---------------------
+     Net U01.soscout0: 20 loads, 0 rising, 20 falling (Driver: U01/OS00/OSCInst0
+     )
+   Number of Clock Enables:  3
+     Net outs_cnv: 1 loads, 0 LSLICEs
+     Net G_16: 6 loads, 5 LSLICEs
+     Net U03/E_act_cnv[0]: 1 loads, 1 LSLICEs
+   Number of LSRs:  2
+     Net G_18: 1 loads, 1 LSLICEs
+     Net U01/OS01/sdiv_RNIIUD5J[20]: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net U01/OS01/sdiv_RNIIUD5J[20]: 11 loads
+     Net cdiv00_c[1]: 10 loads
+     Net cdiv00_c[0]: 8 loads
+     Net cdiv00_c[2]: 7 loads
+     Net clk0_c: 6 loads
+     Net G_16: 6 loads
+     Net N_34: 5 loads
+     Net U01/OS01/N_7: 5 loads
+     Net U01/OS01/sdiv[20]: 5 loads
+     Net cdiv00_c[3]: 4 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outZ0               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outs0               | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| inXsec0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[5]           | INPUT     | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  topsec0101me00                                Date:  03/07/17  10:19:56
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| inPar0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inPar0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| reset0              | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block U01/OS01/VCC undriven or does not drive anything - clipped.
+Block U02/VCC undriven or does not drive anything - clipped.
+Block U02/GND undriven or does not drive anything - clipped.
+Block U03/VCC undriven or does not drive anything - clipped.
+Block U03/GND undriven or does not drive anything - clipped.
+Signal U03.aux.CN was merged into signal U01.soscout0
+Signal U01/OS00/GND undriven or does not drive anything - clipped.
+Signal U01/OS01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal U01/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+     
+Signal U01/OS01/un1_sdiv_1_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal U01/OS01/un1_sdiv_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal U01/OS01/N_1 undriven or does not drive anything - clipped.
+Block U03/aux.CN was optimized away.
+Block U01/OS00/GND was optimized away.
+Block U01/OS01/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+
+
+
+
+                                    Page 3
+
+
+
+
+Design:  topsec0101me00                                Date:  03/07/17  10:19:56
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                U01/OS00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     U01.soscout0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: U01/OS00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 58 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

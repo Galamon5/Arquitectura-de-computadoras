@@ -1,0 +1,2 @@
+@E: CD297 :"G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04.vhd":17:4:17:5|Width mismatch, location has width 5, value 4
+

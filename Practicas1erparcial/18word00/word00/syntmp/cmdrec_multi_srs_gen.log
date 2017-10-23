@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topword00  -incremental_debug  -multisrs  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_comp.srs"  -osyn  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_mult.srs"  -log  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synlog\word00_word00_multi_srs_gen.srr" 
+rc:0 success:1 runtime:1
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_comp.srs|i|1473716184|9326
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_mult.srs|o|1473716186|3762
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synlog\word00_word00_multi_srs_gen.srr|o|1473716186|554
+C:\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449734274|3110400
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449734476|4182528

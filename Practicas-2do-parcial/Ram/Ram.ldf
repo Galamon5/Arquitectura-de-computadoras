@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Ram" device="LCMXO2-7000HE-4TG144C" default_implementation="Ram">
+    <Options/>
+    <Implementation title="Ram" dir="Ram" description="Ram" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="contring00"/>
+        <Source name="div00vhdl/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topdiv00"/>
+        </Source>
+        <Source name="contring00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="contring00"/>
+        </Source>
+        <Source name="coder00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="Ram.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Ram1.sty"/>
+</BaliProject>

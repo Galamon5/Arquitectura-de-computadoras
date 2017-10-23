@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/9/2017 10:40:39
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/Mux_y_Registro/registro; Project name: registro
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/Mux_y_Registro/registro/registro.ldf"
+prj_run Export -impl registro -task Jedecgen
+prj_run Export -impl registro -task Jedecgen
+pgr_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/Mux_y_Registro/registro/registro/registro.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/Mux_y_Registro/registro/registro/registro.xcf"
+pgr_program run
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/Mux_y_Registro/registro/registro/registro.xcf"
+prj_project close
+#Stop recording: 3/9/2017 11:21:43

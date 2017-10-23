@@ -1,0 +1,16 @@
+#Start recording tcl command: 9/28/2017 09:53:55
+#Project Location: C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas; Project name: Gates
+prj_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas/Gates.ldf"
+pgr_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas/Gates/Gates.xcf"
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas/Gates/Gates.xcf"
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas/Gates/Gates.xcf"
+prj_run Map -impl Gates
+prj_run PAR -impl Gates
+prj_run Export -impl Gates -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/5Compuartas Basicas/Gates/Gates.xcf"
+prj_project close
+#Stop recording: 9/28/2017 10:54:26

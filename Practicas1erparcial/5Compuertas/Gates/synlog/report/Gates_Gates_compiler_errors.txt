@@ -1,0 +1,10 @@
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":24:8:24:14|No matching overload for "and"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":25:7:25:12|No matching overload for "or"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":26:4:26:11|No matching overload for "nand"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":27:4:27:10|No matching overload for "nor"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":28:4:28:10|No matching overload for "xor"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":29:4:29:11|No matching overload for "xnor"
+@E: CD371 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":30:4:30:8|No matching overload for "not"
+@E: CD393 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":31:6:31:8|String doesn't match type std_logic
+@E: CD393 :"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl":31:6:31:8|String doesn't match type std_logic
+

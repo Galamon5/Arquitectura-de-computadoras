@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Sep 14 23:49:55 2017 *
+NOTE DESIGN NAME: ci00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS salida[0] : 89 : out *
+NOTE PINS entrada[0] : 86 : in *
+NOTE PINS salida[7] : 103 : out *
+NOTE PINS salida[6] : 104 : out *
+NOTE PINS salida[5] : 100 : out *
+NOTE PINS salida[4] : 98 : out *
+NOTE PINS salida[3] : 95 : out *
+NOTE PINS salida[2] : 91 : out *
+NOTE PINS salida[1] : 85 : out *
+NOTE PINS clk : 27 : in *
+NOTE PINS clr : 94 : in *
+NOTE PINS set : 99 : in *
+NOTE PINS aux : 87 : in *
+NOTE PINS entrada[7] : 105 : in *
+NOTE PINS entrada[6] : 106 : in *
+NOTE PINS entrada[5] : 96 : in *
+NOTE PINS entrada[4] : 97 : in *
+NOTE PINS entrada[3] : 93 : in *
+NOTE PINS entrada[2] : 92 : in *
+NOTE PINS entrada[1] : 84 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,22 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+LOCATE COMP "outtran0[0]" SITE "4";--Salidas de transistores
+LOCATE COMP "outtran0[1]" SITE "3";
+LOCATE COMP "outtran0[2]" SITE "2";
+LOCATE COMP "outtran0[3]" SITE "1";
+LOCATE COMP "outbcd70[0]" SITE "6";--salidas del display
+LOCATE COMP "outbcd70[1]" SITE "5";
+LOCATE COMP "outbcd70[2]" SITE "9";
+LOCATE COMP "outbcd70[3]" SITE "10";
+LOCATE COMP "outbcd70[4]" SITE "11";
+LOCATE COMP "outbcd70[5]" SITE "12";
+LOCATE COMP "outbcd70[6]" SITE "13";
+LOCATE COMP "clk0" SITE "67";--salida del div a un led
+LOCATE COMP "enable0" SITE "59";--control para pausar
+LOCATE COMP "cdiv00[0]" SITE "82";--control de velocidad del divisor
+LOCATE COMP "cdiv00[1]" SITE "81";
+LOCATE COMP "cdiv00[2]" SITE "78";
+LOCATE COMP "cdiv00[3]" SITE "77";
+
+
+

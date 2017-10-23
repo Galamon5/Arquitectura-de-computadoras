@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/5/2016 10:33:27
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates; Project name: Gates
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates.ldf"
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 9/5/2016 10:54:25

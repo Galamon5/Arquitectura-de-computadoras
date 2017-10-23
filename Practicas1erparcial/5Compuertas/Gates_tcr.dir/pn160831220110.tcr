@@ -1,0 +1,28 @@
+#Start recording tcl command: 8/31/2016 20:50:19
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates; Project name: Gates
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates.ldf"
+prj_run Synthesis -impl Gates
+prj_run Export -impl Gates -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_project close
+prj_run Synthesis -impl Gates
+prj_run Export -impl Gates -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_project close
+prj_run Synthesis -impl Gates
+prj_run Export -impl Gates -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_project close
+prj_run Synthesis -impl Gates
+prj_run Export -impl Gates -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Gates/Gates/Gates.xcf"
+pgr_project close
+#Stop recording: 8/31/2016 22:01:10

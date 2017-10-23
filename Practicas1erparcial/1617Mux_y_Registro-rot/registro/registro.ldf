@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="registro" device="LCMXO2-7000HE-4TG144C" default_implementation="registro">
+    <Options/>
+    <Implementation title="registro" dir="registro" description="registro" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="registro"/>
+        <Source name="div00vhdl/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="div00vhdl/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topdiv00"/>
+        </Source>
+        <Source name="registro.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="registro"/>
+        </Source>
+        <Source name="registro.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="registro/registro.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="registro1.sty"/>
+</BaliProject>

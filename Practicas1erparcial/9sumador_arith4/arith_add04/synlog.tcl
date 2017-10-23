@@ -1,0 +1,1 @@
+run_tcl -fg arith_add04_arith_add04_synplify.tcl

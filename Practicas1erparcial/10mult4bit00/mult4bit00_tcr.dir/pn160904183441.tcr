@@ -1,0 +1,19 @@
+#Start recording tcl command: 9/4/2016 15:22:18
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project new -name "mult4bit00" -impl "mult4bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/and00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/or00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/packagefa00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/packageha00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/topfa00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/topha00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/xor00.vhdl"
+prj_project save
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/packagemult4bit.vhdl"
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/topmult4bit00.vhdl"
+prj_run Synthesis -impl mult4bit00
+prj_run Export -impl mult4bit00 -task Jedecgen
+prj_run Export -impl mult4bit00 -task Jedecgen
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_src add -exclude "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_src enable "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+prj_run Export -impl mult4bit00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_project close
+#Stop recording: 9/4/2016 18:34:42

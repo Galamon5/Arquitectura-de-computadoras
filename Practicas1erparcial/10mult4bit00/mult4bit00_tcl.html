@@ -1,0 +1,167 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn160904183441"></A><B><U><big>pn160904183441</big></U></B>
+#Start recording tcl command: 9/4/2016 15:22:18
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project new -name "mult4bit00" -impl "mult4bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/and00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/or00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/packagefa00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/packageha00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/topfa00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/topha00.vhdl" "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mux3bit00/xor00.vhdl"
+prj_project save
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/packagemult4bit.vhdl"
+prj_src add "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/topmult4bit00.vhdl"
+prj_run Synthesis -impl mult4bit00
+prj_run Export -impl mult4bit00 -task Jedecgen
+prj_run Export -impl mult4bit00 -task Jedecgen
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_src add -exclude "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_src enable "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+prj_run Export -impl mult4bit00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_project close
+#Stop recording: 9/4/2016 18:34:42
+
+
+
+<A name="pn160907160744"></A><B><U><big>pn160907160744</big></U></B>
+#Start recording tcl command: 9/7/2016 16:00:02
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_project close
+#Stop recording: 9/7/2016 16:07:44
+
+
+
+<A name="pn160907163129"></A><B><U><big>pn160907163129</big></U></B>
+#Start recording tcl command: 9/7/2016 16:22:46
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00.ldf"
+pgr_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 9/7/2016 16:31:29
+
+
+
+<A name="pn160910153956"></A><B><U><big>pn160910153956</big></U></B>
+#Start recording tcl command: 9/10/2016 15:37:47
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00.ldf"
+pgr_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 9/10/2016 15:39:56
+
+
+
+<A name="pn170306225408"></A><B><U><big>pn170306225408</big></U></B>
+#Start recording tcl command: 3/6/2017 22:49:50
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00.ldf"
+prj_project close
+#Stop recording: 3/6/2017 22:54:08
+
+
+
+<A name="pn170308074837"></A><B><U><big>pn170308074837</big></U></B>
+#Start recording tcl command: 3/8/2017 07:48:14
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00.ldf"
+prj_project close
+#Stop recording: 3/8/2017 07:48:37
+
+
+
+<A name="pn170309120629"></A><B><U><big>pn170309120629</big></U></B>
+#Start recording tcl command: 3/9/2017 11:27:00
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00.ldf"
+prj_run Export -impl mult4bit00 -task Jedecgen
+pgr_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_project save "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_project close
+#Stop recording: 3/9/2017 12:06:29
+
+
+
+<A name="pn170310084555"></A><B><U><big>pn170310084555</big></U></B>
+#Start recording tcl command: 3/10/2017 08:34:19
+#Project Location: C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00.ldf"
+pgr_project open "C:/Users/RODRIGO/Desktop/2017-1/Arquitectura/Proyectos/pendientes/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 3/10/2017 08:45:55
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

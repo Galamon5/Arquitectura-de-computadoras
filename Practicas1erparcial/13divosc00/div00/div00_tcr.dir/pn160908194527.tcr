@@ -1,0 +1,15 @@
+#Start recording tcl command: 9/8/2016 19:28:09
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.ldf"
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/packagediv00.vhdl"
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+prj_src add -exclude "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+prj_src enable "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/8/2016 19:45:27

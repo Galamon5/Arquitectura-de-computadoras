@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/1/2016 10:52:00
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux; Project name: Mux
+prj_project new -name "Mux" -impl "Mux" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux.vhdl"
+prj_run Synthesis -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 9/1/2016 11:49:24

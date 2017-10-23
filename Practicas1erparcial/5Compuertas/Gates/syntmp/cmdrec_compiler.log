@@ -1,0 +1,8 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synwork\Gates_Gates_comp.srs"  -top  gates  -hdllog  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synlog\Gates_Gates_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl" 
+rc:0 success:1 runtime:2
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synwork\Gates_Gates_comp.srs|io:o|time:1504056462|size:2424|exec:0
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synlog\Gates_Gates_compiler.srr|io:o|time:1504056462|size:2808|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\gates.vhdl|io:i|time:1504056459|size:617|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1

@@ -1,0 +1,7 @@
+E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  ci00  -multisrs  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synwork\Registro10_Registro10_comp.srs"  -osyn  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synwork\Registro10_Registro10_mult.srs"  -log  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synlog\Registro10_Registro10_multi_srs_gen.srr" 
+rc:0 success:1 runtime:1
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synwork\Registro10_Registro10_comp.srs|io:i|time:1505450974|size:1998|exec:0
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synwork\Registro10_Registro10_mult.srs|io:o|time:1505450976|size:1605|exec:0
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\Registro10\synlog\Registro10_Registro10_multi_srs_gen.srr|io:o|time:1505450976|size:583|exec:0
+file:E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

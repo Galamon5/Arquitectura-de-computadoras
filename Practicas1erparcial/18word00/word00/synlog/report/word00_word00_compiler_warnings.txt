@@ -1,0 +1,8 @@
+@W: CL111 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl":18:4:18:7|All reachable assignments to outbcd7(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl":18:4:18:7|All reachable assignments to outbcd7(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL117 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl":18:4:18:7|Latch generated from process for signal outbcd7(6 downto 0); possible missing assignment in an if or case statement.
+@W: CL279 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl":20:4:20:5|Pruning register bits 3 to 1 of sring(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD638 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl":18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD276 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl":18:4:18:7|Pruning register bit 5 of outbcd7(5 downto 4). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

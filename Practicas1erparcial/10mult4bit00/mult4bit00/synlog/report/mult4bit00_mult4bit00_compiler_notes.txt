@@ -1,0 +1,12 @@
+@N|Running in 32-bit mode
+@N|Running in 32-bit mode
+@N: CD720 :"C:\lscc\diamond\3.7\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\topmult4bit00.vhdl":9:7:9:19|Top entity is set to topmult4bit00.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\topmult4bit00.vhdl":9:7:9:19|Synthesizing work.topmult4bit00.topmult4bit0.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topfa00.vhdl":9:7:9:13|Synthesizing work.topfa00.topfa0.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\or00.vhdl":8:7:8:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topha00.vhdl":9:7:9:13|Synthesizing work.topha00.topha0.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\and00.vhdl":8:7:8:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\xor00.vhdl":8:7:8:11|Synthesizing work.xor00.xor0.
+@N|Running in 32-bit mode
+

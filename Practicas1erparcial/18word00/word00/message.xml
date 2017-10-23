@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>WO02/N_7_i</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>WO00/OS01/un1_sdiv_1_cry_19_0_COUT</Dynamic>
+            <Navigation>WO00/OS01/un1_sdiv_1_cry_19_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>WO00/OS01/un1_sdiv_1_cry_0_0_S0</Dynamic>
+            <Navigation>WO00/OS01/un1_sdiv_1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>WO00/OS00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>WO00/OS00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl&quot;:18:4:18:7|All reachable assignments to outbcd7(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to outbcd7(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl&quot;:18:4:18:7|All reachable assignments to outbcd7(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to outbcd7(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl&quot;:18:4:18:7|Latch generated from process for signal outbcd7(6 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL117</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Latch generated from process for signal outbcd7(6 downto 0); possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl&quot;:20:4:20:5|Pruning register bits 3 to 1 of sring(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 1 of sring(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl&quot;:18:7:18:11|Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Signal sclk0 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl&quot;:18:4:18:7|Pruning register bit 5 of outbcd7(5 downto 4). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning register bit 5 of outbcd7(5 downto 4). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Found signal identified as System clock which controls 4 sequential elements including WO02.outbcd7_1[6].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Found signal identified as System clock which controls 4 sequential elements including WO02.outbcd7_1[6].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\div00.vhdl&quot;:22:2:22:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including WO00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\div00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including WO00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_12 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_15 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_14 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl&quot;:18:4:18:7|Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\diamond\word00\mux00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Net WO02.un1_incont_13 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

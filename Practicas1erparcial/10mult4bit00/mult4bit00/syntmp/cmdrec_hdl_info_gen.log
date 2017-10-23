@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.7\synpbase\bin\c_vhdl.exe  -osyn  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_hdl_.srs  -top  topmult4bit00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\and00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\or00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\packagefa00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\packageha00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topfa00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topha00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\xor00.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\packagemult4bit.vhdl -lib work C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\topmult4bit00.vhdl  -log  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\syntax.log  -fileorder  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:4
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_hdl_.srs|o|0|0
+C:\lscc\diamond\3.7\cae_library\synthesis\vhdl\machxo2.vhd|i|1377014408|73964
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\and00.vhdl|i|1472952960|280
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\or00.vhdl|i|1472955356|260
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\packagefa00.vhdl|i|1472955568|351
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\packageha00.vhdl|i|1472955537|361
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topfa00.vhdl|i|1472956152|641
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\topha00.vhdl|i|1472955097|453
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mux3bit00\xor00.vhdl|i|1472964003|266
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\packagemult4bit.vhdl|i|1473022566|367
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\topmult4bit00.vhdl|i|1473031158|3615
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\syntax.log|o|1473031184|973
+C:\lscc\diamond\3.7\synpbase\bin64\c_vhdl.exe|i|1449734446|3228672
+C:\lscc\diamond\3.7\synpbase\bin\c_vhdl.exe|i|1449734236|2359296

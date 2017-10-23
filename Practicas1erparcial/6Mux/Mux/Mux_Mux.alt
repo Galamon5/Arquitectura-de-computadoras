@@ -1,0 +1,23 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Sep 28 11:00:38 2017 *
+NOTE DESIGN NAME: multiplex *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS salida[0] : 1 : out *
+NOTE PINS a[0] : 40 : in *
+NOTE PINS salida[2] : 3 : out *
+NOTE PINS salida[1] : 2 : out *
+NOTE PINS s[2] : 48 : in *
+NOTE PINS s[1] : 49 : in *
+NOTE PINS s[0] : 50 : in *
+NOTE PINS c[2] : 44 : in *
+NOTE PINS c[1] : 45 : in *
+NOTE PINS c[0] : 47 : in *
+NOTE PINS b[2] : 41 : in *
+NOTE PINS b[1] : 42 : in *
+NOTE PINS b[0] : 43 : in *
+NOTE PINS a[2] : 38 : in *
+NOTE PINS a[1] : 39 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

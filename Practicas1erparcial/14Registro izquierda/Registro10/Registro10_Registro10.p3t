@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Registro10_Registro10.log"
+-o "Registro10_Registro10.csv"
+-pr "Registro10_Registro10.prf"

@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/7/2016 16:00:02
+#Project Location: C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00; Project name: mult4bit00
+prj_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/Marco/Documents/Arquitectura/Project3CM3/mult4bit00/mult4bit00/mult4bit00.xcf"
+prj_project close
+#Stop recording: 9/7/2016 16:07:44

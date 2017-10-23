@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro/registro</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl(6): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl(10): </Dynamic>
+            <Dynamic>div00</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl(17): </Dynamic>
+            <Dynamic>div0</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/div00.vhdl</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl(5): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl(9): </Dynamic>
+            <Dynamic>osc00</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl(14): </Dynamic>
+            <Dynamic>osc0</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/osc00.vhdl</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/packagediv00.vhdl(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/packagediv00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/packagediv00.vhdl(8): </Dynamic>
+            <Dynamic>packagediv00</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/packagediv00.vhdl</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921240</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl(4): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Dynamic>lattice</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl(9): </Dynamic>
+            <Dynamic>topdiv00</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl(16): </Dynamic>
+            <Dynamic>topdiv0</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/div00vhdl/topdiv00.vhdl</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(8): </Dynamic>
+            <Dynamic>registro</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(18): </Dynamic>
+            <Dynamic>behavioral</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921251</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(34): </Dynamic>
+            <Dynamic>outdiv0</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35921251</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(34): </Dynamic>
+            <Dynamic>outdiv0</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35921613</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(104): </Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>104</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl(16): </Dynamic>
+            <Dynamic>registro</Dynamic>
+            <Dynamic>behavioral</Dynamic>
+            <Navigation>c:/users/carmatchmx/desktop/practicas1erparcial/1617mux_y_registro-rot/registro/registro.vhdl</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

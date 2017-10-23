@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe  -osyn  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_comp.srs"  -top  topword00  -hdllog  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synlog\word00_word00_compiler.srr"  -encrypt  -mp  4  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\div00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\osc00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packagediv00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packageword00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl" -lib work "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topword00.vhdl" 
+rc:0 success:1 runtime:3
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synwork\word00_word00_comp.srs|o|1473716184|9326
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\word00\synlog\word00_word00_compiler.srr|o|1473716184|6369
+C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377014408|73964
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\contring00.vhdl|i|1473569180|716
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\div00.vhdl|i|1473569180|2096
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\mux00.vhdl|i|1473716176|609
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\osc00.vhdl|i|1473569180|527
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packagediv00.vhdl|i|1473569180|387
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\packageword00.vhdl|i|1473569180|631
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topdiv00.vhdl|i|1473569180|600
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Diamond\word00\topword00.vhdl|i|1473574986|779
+C:\lscc\diamond\3.7_x64\synpbase\bin\c_hdl.exe|i|1449734180|1311232
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe|i|1449734382|1936896

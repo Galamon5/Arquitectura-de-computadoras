@@ -1,0 +1,1 @@
+project -fileorder "E:/diamond-arquitectura/diamond/3.9_x64/cae_library/synthesis/vhdl/machxo2.vhd" "G:/todas\ las\ carpetas/Escom/Semestre5/Arquitectura\ de\ Computadoras/Practicas/Registro\ izquierda/registro10.vhd" 

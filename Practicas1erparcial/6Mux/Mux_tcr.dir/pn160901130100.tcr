@@ -1,0 +1,38 @@
+#Start recording tcl command: 9/1/2016 11:52:03
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux; Project name: Mux
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux.ldf"
+prj_run Synthesis -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+prj_src add -exclude "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+prj_src enable "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_project close
+prj_run Synthesis -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_project close
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_project close
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+prj_run Synthesis -impl Mux
+pgr_project close
+prj_run Export -impl Mux -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_project close
+prj_run Synthesis -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/Mux/Mux/Mux.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/1/2016 13:01:00

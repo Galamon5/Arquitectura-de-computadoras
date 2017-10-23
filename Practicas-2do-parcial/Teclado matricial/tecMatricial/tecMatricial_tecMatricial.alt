@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Oct 04 18:54:59 2017 *
+NOTE DESIGN NAME: teclado *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outdiv0 : 59 : out *
+NOTE PINS clr : 2 : in *
+NOTE PINS display[6] : 43 : out *
+NOTE PINS display[5] : 40 : out *
+NOTE PINS display[4] : 42 : out *
+NOTE PINS display[3] : 44 : out *
+NOTE PINS display[2] : 45 : out *
+NOTE PINS display[1] : 48 : out *
+NOTE PINS display[0] : 41 : out *
+NOTE PINS c[2] : 54 : out *
+NOTE PINS c[1] : 50 : out *
+NOTE PINS c[0] : 52 : out *
+NOTE PINS f[3] : 49 : in *
+NOTE PINS f[2] : 39 : in *
+NOTE PINS f[1] : 47 : in *
+NOTE PINS f[0] : 38 : in *
+NOTE PINS indiv0[3] : 55 : in *
+NOTE PINS indiv0[2] : 56 : in *
+NOTE PINS indiv0[1] : 58 : in *
+NOTE PINS indiv0[0] : 57 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

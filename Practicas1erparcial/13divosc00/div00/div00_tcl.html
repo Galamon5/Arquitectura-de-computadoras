@@ -1,0 +1,160 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn160906093412"></A><B><U><big>pn160906093412</big></U></B>
+#Start recording tcl command: 9/6/2016 08:58:00
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project new -name "div00" -impl "div00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/osc00.vhdl"
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2016 09:34:12
+
+
+
+<A name="pn160908194527"></A><B><U><big>pn160908194527</big></U></B>
+#Start recording tcl command: 9/8/2016 19:28:09
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.ldf"
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/packagediv00.vhdl"
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+prj_src add -exclude "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+prj_src enable "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/8/2016 19:45:27
+
+
+
+<A name="pn160908195453"></A><B><U><big>pn160908195453</big></U></B>
+#Start recording tcl command: 9/8/2016 19:47:19
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.ldf"
+prj_src remove "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/packagediv00.vhdl"
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/packageosc00.vhdl"
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_program run
+prj_src add "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/toposc00.vhdl"
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_project close
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+pgr_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00/div00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/8/2016 19:54:53
+
+
+
+<A name="pn160908204632"></A><B><U><big>pn160908204632</big></U></B>
+#Start recording tcl command: 9/8/2016 20:37:35
+#Project Location: C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project open "C:/Users/saiko/Desktop/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.ldf"
+#Stop recording: 9/8/2016 20:46:32
+
+
+
+<A name="pn161013113256"></A><B><U><big>pn161013113256</big></U></B>
+#Start recording tcl command: 10/13/2016 11:20:16
+#Project Location: C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00; Project name: div00
+prj_project open "C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/div00/div00.ldf"
+#Stop recording: 10/13/2016 11:32:56
+
+
+
+<A name="pn170901111604"></A><B><U><big>pn170901111604</big></U></B>
+#Start recording tcl command: 9/1/2017 11:12:18
+#Project Location: C:/lscc/diamond/3.9_x64/bin/nt64/arqui/divosc00/div00; Project name: div00
+prj_project open "C:/lscc/diamond/3.9_x64/bin/nt64/arqui/divosc00/div00/div00.ldf"
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+#Stop recording: 9/1/2017 11:16:04
+
+
+
+<A name="pn170905115432"></A><B><U><big>pn170905115432</big></U></B>
+#Start recording tcl command: 9/5/2017 11:14:50
+#Project Location: C:/lscc/diamond/3.9_x64/bin/nt64/arqui/13divosc00/div00; Project name: div00
+prj_project open "C:/lscc/diamond/3.9_x64/bin/nt64/arqui/13divosc00/div00/div00.ldf"
+prj_run Synthesis -impl div00
+prj_run Synthesis -impl div00
+prj_run Synthesis -impl div00
+prj_run Synthesis -impl div00
+prj_run Synthesis -impl div00
+prj_run Synthesis -impl div00
+prj_run Export -impl div00 -task Jedecgen
+prj_run Export -impl div00 -task Jedecgen
+#Stop recording: 9/5/2017 11:54:32
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

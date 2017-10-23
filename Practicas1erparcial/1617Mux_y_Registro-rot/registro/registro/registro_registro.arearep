@@ -1,0 +1,34 @@
+----------------------------------------------------------------------
+Report for cell registro.TECH
+Register bits:  38 of 7209 (0.527%)
+I/O cells:      24
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3AX         1          100.0
+                            FD1P3IX        29          100.0
+                            FD1S3IX         8          100.0
+                                GSR         1          100.0
+                                 IB        15          100.0
+                               LUT4        58          100.0
+                                 OB         9          100.0
+                              PFUMX         2          100.0
+SUB MODULES
+                              div00         1
+                              osc00         1
+                              TOTAL       136
+----------------------------------------------------------------------
+Report for cell div00.v1
+Instance Path : UD01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3AX         1          100.0
+                            FD1P3IX        21           72.4
+                               LUT4        41           70.7
+                              PFUMX         2          100.0
+                              TOTAL        76
+----------------------------------------------------------------------
+Report for cell osc00.v1
+Instance Path : UD00
+                              TOTAL         0

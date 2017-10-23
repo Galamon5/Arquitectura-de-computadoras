@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/30/2017 23:30:11
+#Project Location: C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/adder4bit00/adder4bit00.ldf"
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project open "C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Diamond/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_project close
+#Stop recording: 1/30/2017 23:39:33

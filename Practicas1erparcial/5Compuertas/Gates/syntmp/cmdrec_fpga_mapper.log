@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates"   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synlog\report\Gates_Gates_fpga_mapper.xml"  -top_level_module  gates  -flow mapping  -multisrs  -oedif  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\Gates_Gates.edi"   -freq 1.000   "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synwork\Gates_Gates_prem.srd"  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\syntmp\Gates_Gates.plg"  -osyn  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\Gates_Gates.srm"  -prjdir  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\"  -prjname  proj_1  -log  "C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synlog\Gates_Gates_fpga_mapper.srr" 
+rc:0 success:1 runtime:1
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\Gates_Gates.edi|io:o|time:1504056465|size:22629|exec:0
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synwork\Gates_Gates_prem.srd|io:i|time:1504056463|size:2865|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1481007224|size:54295|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1481007224|size:40584|exec:0
+file:"C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\syntmp\Gates_Gates.plg"|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\Gates_Gates.srm|io:o|time:1504056464|size:4229|exec:0
+file:C:\lscc\diamond\3.9_x64\bin\nt64\arqui\5Compuartas Basicas\Gates\synlog\Gates_Gates_fpga_mapper.srr|io:o|time:1504056465|size:7284|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\m_gen_lattice.exe|io:i|time:1481008090|size:19188224|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1481009688|size:23047168|exec:1

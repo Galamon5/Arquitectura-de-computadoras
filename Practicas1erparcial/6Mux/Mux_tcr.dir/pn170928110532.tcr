@@ -1,0 +1,18 @@
+#Start recording tcl command: 9/28/2017 10:54:26
+#Project Location: C:/Users/CarmatchMX/Desktop/Nueva carpeta/6Mux; Project name: Mux
+prj_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/6Mux/Mux.ldf"
+pgr_project close
+prj_run Synthesis -impl Mux
+prj_run Map -impl Mux
+prj_run PAR -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+prj_run PAR -impl Mux
+prj_run Export -impl Mux -task Jedecgen
+pgr_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/6Mux/Mux/Mux.xcf"
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/6Mux/Mux/Mux.xcf"
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/6Mux/Mux/Mux.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/28/2017 11:05:32

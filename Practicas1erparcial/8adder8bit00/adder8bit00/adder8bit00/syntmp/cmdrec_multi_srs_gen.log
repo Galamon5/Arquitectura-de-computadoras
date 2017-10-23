@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder00  -multisrs  "C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_comp.srs"  -osyn  "C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_mult.srs"  -log  "C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synlog\adder8bit00_adder8bit00_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_comp.srs|io:i|time:1506615749|size:6190|exec:0
+file:C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_mult.srs|io:o|time:1506615750|size:3696|exec:0
+file:C:\Users\CarmatchMX\Desktop\Nueva carpeta\8adder8bit00\adder8bit00\adder8bit00\synlog\adder8bit00_adder8bit00_multi_srs_gen.srr|io:o|time:1506615750|size:621|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

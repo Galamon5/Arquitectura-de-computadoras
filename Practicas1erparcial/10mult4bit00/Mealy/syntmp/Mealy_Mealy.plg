@@ -1,0 +1,29 @@
+@P:  Worst Slack : 467.837
+@P:  osc00|osc_int_inferred_clock - Estimated Frequency : 77.3 MHz
+@P:  osc00|osc_int_inferred_clock - Requested Frequency : 2.1 MHz
+@P:  osc00|osc_int_inferred_clock - Estimated Period : 12.932
+@P:  osc00|osc_int_inferred_clock - Requested Period : 480.769
+@P:  osc00|osc_int_inferred_clock - Slack : 467.837
+@P:  topsec0101me00|reset0 - Estimated Frequency : NA
+@P:  topsec0101me00|reset0 - Requested Frequency : 1.0 MHz
+@P:  topsec0101me00|reset0 - Estimated Period : NA
+@P:  topsec0101me00|reset0 - Requested Period : 1000.000
+@P:  topsec0101me00|reset0 - Slack : NA
+@P:  Worst Slack(min analysis) : 0.584
+@P:  osc00|osc_int_inferred_clock - Estimated Frequency(min analysis) : 77.3 MHz
+@P:  osc00|osc_int_inferred_clock - Requested Frequency(min analysis) : 2.1 MHz
+@P:  osc00|osc_int_inferred_clock - Estimated Period(min analysis) : 12.932
+@P:  osc00|osc_int_inferred_clock - Requested Period(min analysis) : 480.769
+@P:  osc00|osc_int_inferred_clock - Slack(min analysis) : 467.837
+@P:  topsec0101me00|reset0 - Estimated Frequency(min analysis) : NA
+@P:  topsec0101me00|reset0 - Requested Frequency(min analysis) : 1.0 MHz
+@P:  topsec0101me00|reset0 - Estimated Period(min analysis) : NA
+@P:  topsec0101me00|reset0 - Requested Period(min analysis) : 1000.000
+@P:  topsec0101me00|reset0 - Slack(min analysis) : NA
+@P:  Total Area : 41.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s

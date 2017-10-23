@@ -1,0 +1,7 @@
+E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  arith_add04  -multisrs  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synwork\arith_add04_arith_add04_comp.srs"  -osyn  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synwork\arith_add04_arith_add04_mult.srs"  -log  "G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synlog\arith_add04_arith_add04_multi_srs_gen.srr" 
+rc:0 success:1 runtime:1
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synwork\arith_add04_arith_add04_comp.srs|io:i|time:1505284444|size:1954|exec:0
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synwork\arith_add04_arith_add04_mult.srs|io:o|time:1505284446|size:1600|exec:0
+file:G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\sumador_arith4\arith_add04\synlog\arith_add04_arith_add04_multi_srs_gen.srr|io:o|time:1505284446|size:409|exec:0
+file:E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:E:\diamond-arquitectura\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

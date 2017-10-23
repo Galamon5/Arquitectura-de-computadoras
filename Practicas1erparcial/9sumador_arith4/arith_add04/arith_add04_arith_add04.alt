@@ -1,0 +1,24 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 29 12:12:18 2017 *
+NOTE DESIGN NAME: arith_add04 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Ya[0] : 110 : out *
+NOTE PINS Aa[0] : 41 : in *
+NOTE PINS Yb[3] : 4 : out *
+NOTE PINS Yb[2] : 3 : out *
+NOTE PINS Yb[1] : 2 : out *
+NOTE PINS Yb[0] : 1 : out *
+NOTE PINS Ya[3] : 111 : out *
+NOTE PINS Ya[2] : 112 : out *
+NOTE PINS Ya[1] : 109 : out *
+NOTE PINS Ba[3] : 42 : in *
+NOTE PINS Ba[2] : 43 : in *
+NOTE PINS Ba[1] : 44 : in *
+NOTE PINS Ba[0] : 45 : in *
+NOTE PINS Aa[3] : 38 : in *
+NOTE PINS Aa[2] : 39 : in *
+NOTE PINS Aa[1] : 40 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

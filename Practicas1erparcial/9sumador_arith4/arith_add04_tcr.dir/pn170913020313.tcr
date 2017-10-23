@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/13/2017 01:14:21
+#Project Location: G:/todas las carpetas/Escom/Semestre5/Arquitectura de Computadoras/Practicas/sumador_arith4; Project name: arith_add04
+prj_project new -name "arith_add04" -impl "arith_add04" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "G:/todas las carpetas/Escom/Semestre5/Arquitectura de Computadoras/Practicas/sumador_arith4/arith_add04.vhd"
+prj_run Synthesis -impl arith_add04
+prj_run Synthesis -impl arith_add04
+prj_run Export -impl arith_add04 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 9/13/2017 02:03:13

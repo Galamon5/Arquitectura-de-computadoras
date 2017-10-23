@@ -1,0 +1,25 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Mar 07 10:20:34 2017 *
+NOTE DESIGN NAME: topsec0101me00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 138 : out *
+NOTE PINS cdiv00[0] : 52 : in *
+NOTE PINS outZ0 : 2 : out *
+NOTE PINS outs0 : 1 : out *
+NOTE PINS inXsec0 : 60 : in *
+NOTE PINS inPar0[7] : 71 : in *
+NOTE PINS inPar0[6] : 69 : in *
+NOTE PINS inPar0[5] : 70 : in *
+NOTE PINS inPar0[4] : 67 : in *
+NOTE PINS inPar0[3] : 68 : in *
+NOTE PINS inPar0[2] : 62 : in *
+NOTE PINS inPar0[1] : 65 : in *
+NOTE PINS inPar0[0] : 61 : in *
+NOTE PINS reset0 : 58 : in *
+NOTE PINS cdiv00[3] : 56 : in *
+NOTE PINS cdiv00[2] : 54 : in *
+NOTE PINS cdiv00[1] : 55 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

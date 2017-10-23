@@ -1,0 +1,9 @@
+#Start recording tcl command: 10/4/2017 18:18:21
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial; Project name: tecMatricial
+prj_project new -name "tecMatricial" -impl "tecMatricial" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/div00vhdl/div00.vhdl" "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/div00vhdl/osc00.vhdl" "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/div00vhdl/packagediv00.vhdl" "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/div00vhdl/topdiv00.vhdl"
+prj_src add "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/teclado.vhd"
+prj_run Synthesis -impl tecMatricial
+prj_run Export -impl tecMatricial -task Jedecgen
+#Stop recording: 10/4/2017 18:55:44

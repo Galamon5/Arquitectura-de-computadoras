@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.7\synpbase\bin\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00   -part LCMXO2_7000HE  -package TG144C  -grade -4    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synlog\report\mult4bit00_mult4bit00_fpga_mapper.xml  -top_level_module  topmult4bit00  -flow mapping  -multisrs  -oedif  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\mult4bit00_mult4bit00.edi   -freq 1.000   C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_prem.srd  -devicelib  C:\lscc\diamond\3.7\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.7\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\syntmp\mult4bit00_mult4bit00.plg  -osyn  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\mult4bit00_mult4bit00.srm  -prjdir  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\  -prjname  proj_1  -log  C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synlog\mult4bit00_mult4bit00_fpga_mapper.srr 
+rc:0 success:1 runtime:33
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\mult4bit00_mult4bit00.edi|o|1473031239|78310
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_prem.srd|i|1473031208|6269
+C:\lscc\diamond\3.7\synpbase\lib\lucent\machxo2.v|i|1449730182|54295
+C:\lscc\diamond\3.7\synpbase\lib\lucent\pmi_def.v|i|1449730182|40584
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\syntmp\mult4bit00_mult4bit00.plg|o|1473031246|1193
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\mult4bit00_mult4bit00.srm|o|1473031232|8116
+C:\Users\Marco\Documents\Arquitectura\Project3CM3\mult4bit00\mult4bit00\synlog\mult4bit00_mult4bit00_fpga_mapper.srr|o|1473031246|7149
+C:\lscc\diamond\3.7\synpbase\bin64\m_gen_lattice.exe|i|1452321578|21336576
+C:\lscc\diamond\3.7\synpbase\bin\m_gen_lattice.exe|i|1452320202|17846272

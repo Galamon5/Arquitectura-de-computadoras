@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Mealy_Mealy.log"
+-o "Mealy_Mealy.csv"
+-pr "Mealy_Mealy.prf"

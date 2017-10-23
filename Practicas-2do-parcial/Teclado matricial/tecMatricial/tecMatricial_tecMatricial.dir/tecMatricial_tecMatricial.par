@@ -1,0 +1,27 @@
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Oct 04 18:54:04 2017
+
+C:/lscc/diamond/3.9_x64/ispfpga\bin\nt64\par -f tecMatricial_tecMatricial.p2t
+tecMatricial_tecMatricial_map.ncd tecMatricial_tecMatricial.dir
+tecMatricial_tecMatricial.prf -gui -msgset
+C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/promote.xml
+
+
+Preference file: tecMatricial_tecMatricial.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            463.744      0            0.306        0            41           Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 41 secs 
+
+par done!

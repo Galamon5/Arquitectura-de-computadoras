@@ -1,0 +1,430 @@
+---------------------------------------------------
+Report for cell topmult4bit00
+   Instance path: topmult4bit00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00        100.0
+                                  LUT4	      26.00        100.0
+                                 IOBUF	         16        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             topfa00_2	          1         7.7
+                             topfa00_6	          1        11.5
+                             topfa00_8	          1         7.7
+                             topfa00_9	          1         7.7
+                             topfa00_7	          1         7.7
+                             topfa00_4	          1         7.7
+                             topfa00_5	          1         7.7
+                             topfa00_3	          1         7.7
+                            topfa00_11	          1         7.7
+                            topfa00_12	          1         7.7
+                            topfa00_10	          1         7.7
+                               and00_5	          1         3.8
+                               and00_2	          1         3.8
+                               and00_0	          1         3.8
+---------------------------------------------------
+Report for cell topfa00_12
+   Instance path: topmult4bit00/UM027
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_21	          1         7.7
+---------------------------------------------------
+Report for cell topha00_5_16_21
+   Instance path: topmult4bit00/UM027/UH00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_21	          1         3.8
+                              and00_37	          1         3.8
+---------------------------------------------------
+Report for cell and00_37
+   Instance path: topmult4bit00/UM027/UH00/UA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xor00_21
+   Instance path: topmult4bit00/UM027/UH00/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_11
+   Instance path: topmult4bit00/UM026
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_20	          1         3.8
+                                or00_9	          1         3.8
+---------------------------------------------------
+Report for cell or00_9
+   Instance path: topmult4bit00/UM026/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_20
+   Instance path: topmult4bit00/UM026/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_20	          1         3.8
+---------------------------------------------------
+Report for cell xor00_20
+   Instance path: topmult4bit00/UM026/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_10
+   Instance path: topmult4bit00/UM025
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_18	          1         3.8
+                                or00_8	          1         3.8
+---------------------------------------------------
+Report for cell or00_8
+   Instance path: topmult4bit00/UM025/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_18
+   Instance path: topmult4bit00/UM025/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_18	          1         3.8
+---------------------------------------------------
+Report for cell xor00_18
+   Instance path: topmult4bit00/UM025/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_9
+   Instance path: topmult4bit00/UM024
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_16	          1         3.8
+                                or00_7	          1         3.8
+---------------------------------------------------
+Report for cell or00_7
+   Instance path: topmult4bit00/UM024/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_16
+   Instance path: topmult4bit00/UM024/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_16	          1         3.8
+---------------------------------------------------
+Report for cell xor00_16
+   Instance path: topmult4bit00/UM024/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_8
+   Instance path: topmult4bit00/UM019
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_13	          1         7.7
+---------------------------------------------------
+Report for cell topha00_5_16_13
+   Instance path: topmult4bit00/UM019/UH00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_13	          1         3.8
+                              and00_25	          1         3.8
+---------------------------------------------------
+Report for cell and00_25
+   Instance path: topmult4bit00/UM019/UH00/UA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xor00_13
+   Instance path: topmult4bit00/UM019/UH00/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_7
+   Instance path: topmult4bit00/UM018
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_5	          1         3.8
+                       topha00_5_16_11	          1         3.8
+---------------------------------------------------
+Report for cell or00_5
+   Instance path: topmult4bit00/UM018/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_11
+   Instance path: topmult4bit00/UM018/UH00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_11	          1         3.8
+---------------------------------------------------
+Report for cell xor00_11
+   Instance path: topmult4bit00/UM018/UH00/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_6
+   Instance path: topmult4bit00/UM017
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50        11.5
+                                  LUT4	       3.00        11.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       topha00_5_16_10	          1         7.7
+                                or00_4	          1         3.8
+---------------------------------------------------
+Report for cell or00_4
+   Instance path: topmult4bit00/UM017/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_10
+   Instance path: topmult4bit00/UM017/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_10	          1         7.7
+---------------------------------------------------
+Report for cell xor00_10
+   Instance path: topmult4bit00/UM017/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+---------------------------------------------------
+Report for cell topfa00_5
+   Instance path: topmult4bit00/UM016
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        topha00_5_16_8	          1         3.8
+                                or00_3	          1         3.8
+---------------------------------------------------
+Report for cell or00_3
+   Instance path: topmult4bit00/UM016/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_8
+   Instance path: topmult4bit00/UM016/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xor00_8	          1         3.8
+---------------------------------------------------
+Report for cell xor00_8
+   Instance path: topmult4bit00/UM016/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_4
+   Instance path: topmult4bit00/UM011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        topha00_5_16_5	          1         7.7
+---------------------------------------------------
+Report for cell topha00_5_16_5
+   Instance path: topmult4bit00/UM011/UH00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xor00_5	          1         3.8
+                              and00_13	          1         3.8
+---------------------------------------------------
+Report for cell and00_13
+   Instance path: topmult4bit00/UM011/UH00/UA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xor00_5
+   Instance path: topmult4bit00/UM011/UH00/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_3
+   Instance path: topmult4bit00/UM010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        topha00_5_16_4	          1         3.8
+                                or00_1	          1         3.8
+---------------------------------------------------
+Report for cell or00_1
+   Instance path: topmult4bit00/UM010/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_4
+   Instance path: topmult4bit00/UM010/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xor00_4	          1         3.8
+---------------------------------------------------
+Report for cell xor00_4
+   Instance path: topmult4bit00/UM010/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topfa00_2
+   Instance path: topmult4bit00/UM09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        topha00_5_16_2	          1         3.8
+                                or00_0	          1         3.8
+---------------------------------------------------
+Report for cell or00_0
+   Instance path: topmult4bit00/UM09/UO00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell topha00_5_16_2
+   Instance path: topmult4bit00/UM09/UH01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xor00_2	          1         3.8
+---------------------------------------------------
+Report for cell xor00_2
+   Instance path: topmult4bit00/UM09/UH01/UX00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell and00_5
+   Instance path: topmult4bit00/UM06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell and00_2
+   Instance path: topmult4bit00/UM03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell and00_0
+   Instance path: topmult4bit00/UM01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8

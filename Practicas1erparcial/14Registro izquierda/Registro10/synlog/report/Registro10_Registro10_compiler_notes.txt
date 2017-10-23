@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"E:\diamond-arquitectura\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\registro10.vhd":6:7:6:10|Top entity is set to ci00.
+@N: CD630 :"G:\todas las carpetas\Escom\Semestre5\Arquitectura de Computadoras\Practicas\Registro izquierda\registro10.vhd":6:7:6:10|Synthesizing work.ci00.ci0.
+@N|Running in 64-bit mode
+

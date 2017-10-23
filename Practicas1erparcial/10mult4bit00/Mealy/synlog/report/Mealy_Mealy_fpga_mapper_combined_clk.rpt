@@ -1,0 +1,25 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 34 clock pin(s) of sequential element(s)
+0 instances converted, 34 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       reset0              port                   2          U03.E_sig[1]   
+=======================================================================================
+================================================================================================== Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U01.OS00.OSCInst0     OSCH                   34         U02.sinpar[7]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

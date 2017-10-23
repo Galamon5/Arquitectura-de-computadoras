@@ -1,0 +1,23 @@
+#Start recording tcl command: 10/3/2017 17:53:58
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial; Project name: teclado_matricial
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/teclado_matricial.ldf"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Translate -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Translate -impl impl1
+prj_src add -exclude "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/key00.lpf"
+prj_run Map -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Map -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src remove "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/osc00.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+prj_src add "C:/Users/CarmatchMX/Desktop/Practicas-2do-parcial/Teclado matricial/osc00.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+prj_project close
+#Stop recording: 10/4/2017 18:18:19

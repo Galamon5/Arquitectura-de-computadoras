@@ -1,0 +1,17 @@
+#Start recording tcl command: 9/28/2017 11:22:20
+#Project Location: C:/Users/CarmatchMX/Desktop/Nueva carpeta/8adder8bit00/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/8adder8bit00/adder8bit00/adder8bit00.ldf"
+pgr_project close
+prj_run Synthesis -impl adder8bit00
+prj_run Map -impl adder8bit00
+prj_run PAR -impl adder8bit00
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_project open "C:/Users/CarmatchMX/Desktop/Nueva carpeta/8adder8bit00/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/8adder8bit00/adder8bit00/adder8bit00/adder8bit00.xcf"
+pgr_program run
+prj_run Export -impl adder8bit00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/CarmatchMX/Desktop/Nueva carpeta/8adder8bit00/adder8bit00/adder8bit00/adder8bit00.xcf"
+prj_project close
+#Stop recording: 9/28/2017 11:40:52

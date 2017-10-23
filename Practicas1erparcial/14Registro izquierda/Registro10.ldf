@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Registro10" device="LCMXO2-7000HE-4TG144C" default_implementation="Registro10">
+    <Options/>
+    <Implementation title="Registro10" dir="Registro10" description="Registro10" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="ci00"/>
+        <Source name="registro10.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="ci00"/>
+        </Source>
+        <Source name="Registro10.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Registro101.sty"/>
+</BaliProject>

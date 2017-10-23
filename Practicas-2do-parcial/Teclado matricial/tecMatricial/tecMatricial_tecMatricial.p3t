@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "tecMatricial_tecMatricial.log"
+-o "tecMatricial_tecMatricial.csv"
+-pr "tecMatricial_tecMatricial.prf"

@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/4/2016 07:29:37
+#Project Location: D:/registro; Project name: registro
+prj_project open "D:/registro/registro.ldf"
+prj_project close
+#Stop recording: 10/4/2016 07:30:04

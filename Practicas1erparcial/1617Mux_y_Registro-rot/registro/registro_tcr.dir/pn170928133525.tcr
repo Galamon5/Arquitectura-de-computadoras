@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/28/2017 13:34:43
+#Project Location: C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro; Project name: registro
+prj_project open "C:/Users/CarmatchMX/Desktop/Practicas1erparcial/1617Mux_y_Registro-rot/registro/registro.ldf"
+prj_project save
+prj_project close
+#Stop recording: 9/28/2017 13:35:25

@@ -1,0 +1,21 @@
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\topsec0101me00.vhdl":9:7:9:20|Synthesizing work.topsec0101me00.topsec0101me0.
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":8:7:8:17|Synthesizing work.sec0101me00.sec0101me0.
+@N: CD233 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":16:13:16:14|Using sequential encoding for type estados
+@W: CD434 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":38:18:38:23|Signal clksec in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":38:10:38:16|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":45:12:45:17|Referenced variable inxsec is not in sensitivity list
+@W: CG290 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":40:9:40:16|Referenced variable resetsec is not in sensitivity list
+Post processing for work.sec0101me00.sec0101me0
+@W: CL117 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\sec0101me00.vhdl":40:4:40:7|Latch generated from process for signal E_sig(1 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\rps00.vhdl":8:7:8:11|Synthesizing work.rps00.rps0.
+Post processing for work.rps00.rps0
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\RODRIGO\Desktop\2017-1\Arquitectura\Proyectos\pendientes\mult4bit00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.8_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.8_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topsec0101me00.topsec0101me0

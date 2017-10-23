@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "arith_add04_arith_add04.log"
+-o "arith_add04_arith_add04.csv"
+-pr "arith_add04_arith_add04.prf"
